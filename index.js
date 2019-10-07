@@ -37,6 +37,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 var Semaphore = (function () {
     function Semaphore(initialValue) {
+        if (initialValue === void 0) { initialValue = 1; }
         this.value = initialValue;
         this.queue = [];
     }
