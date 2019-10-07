@@ -1,0 +1,24 @@
+{
+  "name": "p-semaphore",
+  "version": "0.0.1",
+  "description": "A simple async/await semaphore implementation",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run-script build && jest"
+  },
+  "author": "Mario Jäckle <github@jacksbox.de",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacksbox/p-semaphore/issues"
+  },
+  "homepage": "https://github.com/jacksbox/p-semaphore#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksbox/p-semaphore.git"
+  },
+  "dependencies": {
+    "jest": "^24.9.0",
+    "typescript": "^3.6.3"
+  }
+}
